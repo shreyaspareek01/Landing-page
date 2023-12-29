@@ -182,3 +182,73 @@ p {
   background-position: center;
   opacity: 1;
 }
+
+.quote {
+  padding-top: 100px;
+  height: 475px;
+  background-color: chocolate;
+  color: white;
+  font-size: 3em;
+}
+
+.quote p {
+  margin-left: 10%;
+  width: 80%;
+  height: 60%;
+}
+
+.quote h5 {
+  margin-top: -90px;
+  margin-left: 75%;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.contact .contact-container {
+  width: 70%;
+  height: 50%;
+  background-color: brown;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.contact-text {
+  width: 70%;
+}
+.contact-text h3 {
+  font-size: 2em;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.contact-text p {
+  font-size: 1.3em;
+  margin-left: 10%;
+  margin-top: 0%;
+}
+
+button {
+  width: 20%;
+  padding: 10px;
+  background-color: chocolate;
+  border: 0;
+  color: white;
+  border-radius: 1em;
+  font-size: 1.5em;
+}
+
+footer {
+  height: 100px;
+  background-color: chocolate;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+}
